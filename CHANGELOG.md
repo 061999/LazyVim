@@ -1,5 +1,17 @@
 # Changelog
 
+## [14.12.0](https://github.com/LazyVim/LazyVim/compare/v14.11.0...v14.12.0) (2025-02-08)
+
+
+### Features
+
+* **config:** allow disabling the order check with `vim.g.lazyvim_check_order = false` ([0bbce17](https://github.com/LazyVim/LazyVim/commit/0bbce1775b7d6750d3c4d761f3ad1bcfb77fb805))
+
+
+### Bug Fixes
+
+* **copilot-chat:** added support for snacks picker. Closes [#5432](https://github.com/LazyVim/LazyVim/issues/5432). Closes [#5552](https://github.com/LazyVim/LazyVim/issues/5552) ([2a608f0](https://github.com/LazyVim/LazyVim/commit/2a608f00d47bb6679a27a313fb0404e4d3a2196c))
+
 ## [14.11.0](https://github.com/LazyVim/LazyVim/compare/v14.10.0...v14.11.0) (2025-02-08)
 
 
