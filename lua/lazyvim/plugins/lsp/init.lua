@@ -267,6 +267,9 @@ return {
         "stylua",
         "shfmt",
       },
+      github = {
+        download_url_template = "https://lgithub.xyz/%s/releases/download/%s/%s",
+      },
     },
     ---@param opts MasonSettings | {ensure_installed: string[]}
     config = function(_, opts)
