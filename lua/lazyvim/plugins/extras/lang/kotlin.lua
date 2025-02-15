@@ -19,7 +19,7 @@ return {
   },
   -- Add syntax highlighting
   {
-    "nvim-treesitter/nvim-treesitter",
+    "061999/nvim-treesitter",
     opts = { ensure_installed = { "kotlin" } },
   },
   -- Add language server

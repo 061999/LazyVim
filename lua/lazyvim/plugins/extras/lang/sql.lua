@@ -95,7 +95,7 @@ return {
 
   -- Treesitter
   {
-    "nvim-treesitter/nvim-treesitter",
+    "061999/nvim-treesitter",
     optional = true,
     opts = { ensure_installed = { "sql" } },
   },

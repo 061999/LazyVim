@@ -6,7 +6,7 @@ return {
     })
   end,
   {
-    "nvim-treesitter/nvim-treesitter",
+    "061999/nvim-treesitter",
     opts = function(_, opts)
       if type(opts.ensure_installed) == "table" then
         vim.list_extend(opts.ensure_installed, { "ocaml" })

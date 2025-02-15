@@ -24,7 +24,7 @@ return {
     })
   end,
   {
-    "nvim-treesitter/nvim-treesitter",
+    "061999/nvim-treesitter",
     opts = { ensure_installed = { "ninja", "rst" } },
   },
   {

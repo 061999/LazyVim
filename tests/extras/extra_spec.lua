@@ -45,7 +45,7 @@ describe("Extra", function()
         assert.is_not_nil(mod)
         local spec = Plugin.Spec.new({
           { "williamboman/mason.nvim", opts = { ensure_installed = {} } },
-          { "nvim-treesitter/nvim-treesitter", opts = { ensure_installed = {} } },
+          { "061999/nvim-treesitter", opts = { ensure_installed = {} } },
           mod,
         }, { optional = true })
         assert(#spec.notifs == 0, "Invalid spec: " .. vim.inspect(spec.notifs))
@@ -61,7 +61,7 @@ describe("Extra", function()
       local mod = require(extra.modname)
       local spec = Plugin.Spec.new({
         { "williamboman/mason.nvim", opts = { ensure_installed = {} } },
-        { "nvim-treesitter/nvim-treesitter", opts = { ensure_installed = {} } },
+        { "061999/nvim-treesitter", opts = { ensure_installed = {} } },
         mod,
       }, { optional = true })
       local lspconfig = spec.plugins["nvim-lspconfig"]

@@ -8,7 +8,7 @@ return {
 
   -- Add BibTeX/LaTeX to treesitter
   {
-    "nvim-treesitter/nvim-treesitter",
+    "061999/nvim-treesitter",
     opts = function(_, opts)
       opts.highlight = opts.highlight or {}
       if type(opts.ensure_installed) == "table" then

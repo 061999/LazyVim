@@ -8,7 +8,7 @@ return {
 
   { "Hoffs/omnisharp-extended-lsp.nvim", lazy = true },
   {
-    "nvim-treesitter/nvim-treesitter",
+    "061999/nvim-treesitter",
     opts = { ensure_installed = { "c_sharp" } },
   },
   {

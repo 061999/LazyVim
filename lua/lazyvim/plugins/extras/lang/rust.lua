@@ -37,7 +37,7 @@ return {
 
   -- Add Rust & related to treesitter
   {
-    "nvim-treesitter/nvim-treesitter",
+    "061999/nvim-treesitter",
     opts = { ensure_installed = { "rust", "ron" } },
   },
 

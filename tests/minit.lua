@@ -10,7 +10,7 @@ require("lazy.minit").setup({
     "LazyVim/starter",
     "williamboman/mason-lspconfig.nvim",
     "williamboman/mason.nvim",
-    "nvim-treesitter/nvim-treesitter",
+    "061999/nvim-treesitter",
     { "echasnovski/mini.icons", opts = {} },
   },
 })

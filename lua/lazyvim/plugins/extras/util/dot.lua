@@ -23,7 +23,7 @@ return {
   },
   -- add some stuff to treesitter
   {
-    "nvim-treesitter/nvim-treesitter",
+    "061999/nvim-treesitter",
     opts = function(_, opts)
       local function add(lang)
         if type(opts.ensure_installed) == "table" then
