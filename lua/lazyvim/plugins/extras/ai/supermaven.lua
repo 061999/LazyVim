@@ -50,7 +50,7 @@ return {
   },
 
   vim.g.ai_cmp and {
-    "saghen/blink.cmp",
+    "061999/blink.cmp",
     optional = true,
     dependencies = { "supermaven-nvim", "saghen/blink.compat" },
     opts = {

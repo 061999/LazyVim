@@ -130,7 +130,7 @@ return {
 
   -- blink.cmp integration
   {
-    "saghen/blink.cmp",
+    "061999/blink.cmp",
     optional = true,
     opts = function(_, opts)
       -- Return early

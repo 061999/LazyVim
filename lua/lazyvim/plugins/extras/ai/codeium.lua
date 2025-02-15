@@ -57,7 +57,7 @@ return {
   },
 
   vim.g.ai_cmp and {
-    "saghen/blink.cmp",
+    "061999/blink.cmp",
     optional = true,
     dependencies = { "codeium.nvim", "saghen/blink.compat" },
     opts = {

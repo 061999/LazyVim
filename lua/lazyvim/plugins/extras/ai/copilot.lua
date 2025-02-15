@@ -96,7 +96,7 @@ return {
           },
         },
         {
-          "saghen/blink.cmp",
+          "061999/blink.cmp",
           optional = true,
           dependencies = { "giuxtaposition/blink-cmp-copilot" },
           opts = {

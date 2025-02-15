@@ -13,7 +13,7 @@ return {
     enabled = false,
   },
   {
-    "saghen/blink.cmp",
+    "061999/blink.cmp",
     version = not vim.g.lazyvim_blink_main and "*",
     build = vim.g.lazyvim_blink_main and "cargo build --release",
     opts_extend = {
@@ -155,7 +155,7 @@ return {
 
   -- add icons
   {
-    "saghen/blink.cmp",
+    "061999/blink.cmp",
     opts = function(_, opts)
       opts.appearance = opts.appearance or {}
       opts.appearance.kind_icons = vim.tbl_extend("force", opts.appearance.kind_icons or {}, LazyVim.config.icons.kinds)
@@ -164,7 +164,7 @@ return {
 
   -- lazydev
   {
-    "saghen/blink.cmp",
+    "061999/blink.cmp",
     opts = {
       sources = {
         -- add lazydev to your completion providers

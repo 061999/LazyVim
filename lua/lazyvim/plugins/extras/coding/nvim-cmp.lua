@@ -1,6 +1,6 @@
 return {
   {
-    "saghen/blink.cmp",
+    "061999/blink.cmp",
     enabled = false,
     optional = true,
   },

@@ -35,7 +35,7 @@ return {
   },
 
   {
-    "saghen/blink.cmp",
+    "061999/blink.cmp",
     optional = true,
     dependencies = { "tzachar/cmp-tabnine", "saghen/blink.compat" },
     opts = {
